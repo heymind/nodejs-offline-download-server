@@ -3,7 +3,6 @@ import moment from "moment"
 import shortid from "shortid32"
 import path from "path"
 import fs from "fs"
-import qiniu from "qiniu"
 export default class DownloadManager{
   constructor(config){
     this.config = config

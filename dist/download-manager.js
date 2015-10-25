@@ -30,10 +30,6 @@ var _fs = require("fs");
 
 var _fs2 = _interopRequireDefault(_fs);
 
-var _qiniu = require("qiniu");
-
-var _qiniu2 = _interopRequireDefault(_qiniu);
-
 var DownloadManager = (function () {
   function DownloadManager(config) {
     _classCallCheck(this, DownloadManager);
