@@ -21,8 +21,6 @@
     "koa-static": "^1.5.1",
     "moment": "^2.10.6",
     "npm": "^3.3.9",
-    "qiniu": "^6.1.8",
-    "shortid": "^2.2.4",
     "shortid32": "^0.1.0"
   },
   "devDependencies": {}
