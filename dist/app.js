@@ -104,4 +104,4 @@ app.use(_koaRoute2["default"].get('/status', _regeneratorRuntime.mark(function c
 
 app.use((0, _koaMount2["default"])("/static", (0, _koaStatic2["default"])(dest_path)));
 
-app.listen(3000);
+app.listen(process.env.PORT || '8080');
